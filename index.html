@@ -8,6 +8,13 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
   </head>
@@ -295,16 +302,16 @@
                 <span>Java</span>
               </div>
               <div class="resume-item">
+                <i class="devicon-spring-original"></i>
+                <span>Spring Boot</span>
+              </div>
+              <div class="resume-item">
                 <i class="bx bxl-javascript"></i>
                 <span>JavaScript</span>
               </div>
               <div class="resume-item">
                 <i class="bx bxl-react"></i>
                 <span>React.js</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-nodejs"></i>
-                <span>Node.js</span>
               </div>
               <div class="resume-item">
                 <i class="bx bxl-html5"></i>
@@ -315,12 +322,12 @@
                 <span>CSS3</span>
               </div>
               <div class="resume-item">
-                <i class="bx bxl-tailwind-css"></i>
-                <span>Tailwind CSS</span>
+                <i class="devicon-postgresql-plain"></i>
+                <span>PostgreSQL</span>
               </div>
               <div class="resume-item">
-                <i class="bx bxl-mongodb"></i>
-                <span>MongoDB</span>
+                <i class="devicon-mariadb-original"></i>
+                <span>MariaDB</span>
               </div>
             </div>
           </div>
@@ -363,26 +370,29 @@
       <h2 class="heading">Latest <span>Project</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
-          <div class="portfolio-detail active">
+          <div class="portfolio-detail">
             <p class="numb">01</p>
-            <h3>Web Dev Portfolio</h3>
+            <h3>Property Management System</h3>
             <p class="desc">
-              This is the first project I created during Uplift Bootcamp, a
-              simple portfolio application built with HTML5 and CSS3. It was
-              designed to showcase what we learned from our HTML and CSS
-              lessons.
+              Developed a web-based Property Management System that enables
+              administrators to manage commercial units, tenants, lease
+              agreements, and payment records through a secure role-based
+              authentication system.
             </p>
             <div class="tech">
-              <p>HTML5, CSS3</p>
+              <p>
+                Java, Spring Boot, Spring Security, Thymeleaf, PostgreSQL,
+                Supabase, JPA/Hibernate, Bootstrap
+              </p>
             </div>
             <div class="live-github">
               <a
-                href="https://bryanbalantes.github.io/p1-web-dev-portfolio/"
+                href="https://commercial-leasing-system-production.up.railway.app/"
                 target="_blank"
                 ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
               >
               <a
-                href="https://github.com/BryanBalantes/p1-web-dev-portfolio.git"
+                href="https://github.com/BryanBalantes/commercial-leasing-system.git"
                 target="_blank"
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
@@ -391,6 +401,29 @@
 
           <div class="portfolio-detail">
             <p class="numb">02</p>
+            <h3>Fortune Cookie</h3>
+            <p class="desc">
+              This is a simple homework from Village88, where we were tasked
+              with cloning a design. We were given sample images and
+              instructions that we needed to follow to complete the task.
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="https://fortune-cookie-six.vercel.app/" target="_blank"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a
+                href="https://github.com/BryanBalantes/fortune_cookie"
+                target="_blank"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
             <h3>Image Search App</h3>
             <p class="desc">
               This is the second project I developed during my time at Uplift
@@ -415,7 +448,7 @@
           </div>
 
           <div class="portfolio-detail">
-            <p class="numb">03</p>
+            <p class="numb">04</p>
             <h3>Customize Accessories App</h3>
             <p class="desc">
               These are my 3rd and 4th projects from Uplift Bootcamp, a simple
@@ -432,33 +465,6 @@
               >
               <a
                 href="https://github.com/BryanBalantes/p4-node-app/tree/main/"
-                target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">04</p>
-            <h3>Simple HR Directory</h3>
-            <p class="desc">
-              This is one of my homework projects from Uplift Bootcamp, a simple
-              HR Directory App built with React.js and styled using CSS3. When a
-              user registers, their data is stored in localStorage and displayed
-              on the homepage, showing their name and role. This project was
-              created to showcase what we learned in our React.js lessons.
-            </p>
-            <div class="tech">
-              <p>React.js, CSS3</p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://hw-react-hr-directory.vercel.app/"
-                target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a
-                href="https://github.com/BryanBalantes/hw-react-hr-directory"
                 target="_blank"
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
@@ -517,77 +523,6 @@
               >
             </div>
           </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">07</p>
-            <h3>PacMan Game</h3>
-            <p class="desc">
-              This is the Village88 simple game challenge, built using HTML5,
-              CSS3, and JavaScript. This game is one of the challenging homework
-              projects from the Village88 bootcamp, designed to showcase our
-              critical thinking skills and problem-solving abilities. The game
-              can only be played on a laptop or desktop computer and will not
-              work on mobile devices.
-            </p>
-            <div class="tech">
-              <p>HTML5, CSS3, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="https://pacman-omega-two.vercel.app/" target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="https://github.com/BryanBalantes/pacman" target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">08</p>
-            <h3>Fortune Cookie</h3>
-            <p class="desc">
-              This is a simple homework from Village88, where we were tasked
-              with cloning a design. We were given sample images and
-              instructions that we needed to follow to complete the task.
-            </p>
-            <div class="tech">
-              <p>HTML5, CSS3, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="https://fortune-cookie-six.vercel.app/" target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a
-                href="https://github.com/BryanBalantes/fortune_cookie"
-                target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-
-          <div class="portfolio-detail">
-            <p class="numb">09</p>
-            <h3>1942 Game</h3>
-            <p class="desc">
-              This is a simple yet challenging game project from Village88,
-              similar to a Pacman-style game. This homework was designed to test
-              our critical thinking skills and our ability to solve problems
-              based on the given instructions.
-            </p>
-            <div class="tech">
-              <p>HTML5, CSS3, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="https://1942-main.vercel.app/" target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a
-                href="https://github.com/BryanBalantes/1942-main"
-                target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
         </div>
         <div class="portfolio-box">
           <div class="portfolio-carousel">
@@ -610,18 +545,8 @@
               <div class="img-item">
                 <img src="images/project6.png" alt="myproject" />
               </div>
-              <div class="img-item">
-                <img src="images/project7.png" alt="myproject" />
-              </div>
-              <div class="img-item">
-                <img src="images/project8.png" alt="myproject" />
-              </div>
-              <div class="img-item">
-                <img src="images/project9.png" alt="myproject" />
-              </div>
             </div>
           </div>
-
           <div class="navigation">
             <button class="arrow-left disabled">
               <i class="bx bx-chevron-left"></i>
